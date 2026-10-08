@@ -1,0 +1,4 @@
+build/
+node_modules/
+tools/out/
+.lock-waf*

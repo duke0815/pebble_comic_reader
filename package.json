@@ -1,0 +1,32 @@
+{
+  "name": "pebble-comic-reader",
+  "author": "duke0815",
+  "version": "0.1.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Comic Reader",
+    "uuid": "2bc729f0-24b2-45f5-a2ff-20d6dcd1f62e",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "READY",
+      "REQUEST",
+      "INBOX_SIZE",
+      "TOTAL_SIZE",
+      "OFFSET",
+      "DATA",
+      "ERROR"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
